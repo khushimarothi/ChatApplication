@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #005fff;
+    --primary-color: #5430b5;
     --primary-color-alpha: #005fff1a;
   }
   
@@ -27,7 +27,7 @@
     justify-content: center;
   
     padding: 2rem;
-    background: #005fff;
+    background: var(--primary-color);
   }
   
   .auth__form-container_image {
@@ -1302,6 +1302,10 @@
   .str-chat__message-team-pin-indicator div svg {
     fill: #858688;
     font-size: 10px !important;
+  }
+  .str-chat__channel-list
+  {
+    background: rgba(0, 0, 0, 0.021) !important;
   }
   
   .str-chat__message-team-pin-indicator div div {

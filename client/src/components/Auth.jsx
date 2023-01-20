@@ -54,6 +54,7 @@ const switchMode = () => {
     <div className="auth__form-container">
         <div className="auth__form-container_fields">
             <div className="auth__form-container_fields-content">
+      
                 <p>{isSignup ? 'Sign Up' : 'Sign In'} </p>
 
                 <form onSubmit={handleSubmit}>

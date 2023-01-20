@@ -13,7 +13,7 @@ const SideBar = ({logout}) => (
   <div className="channel-list__sidebar">
     <div className="channel-list__sidebar__icon1">
       <div className="icon1__inner">
-           <img src={HospitalIcon} alt="hospital" width="30" />
+           <img src={HospitalIcon } alt="hospital" width="30" />
       </div>
         
     </div>
@@ -27,7 +27,7 @@ const SideBar = ({logout}) => (
 
 const CompanyHeader =() => (
   <div className="channel-list__header">
-    <p className="channel-list__header__text">Chat App</p>
+    <p className="channel-list__header__text">SOIT CONNECT</p>
 </div>
 );
 const customChannelTeamFilter = (channels) => {
